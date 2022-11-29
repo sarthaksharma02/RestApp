@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.food_nutrition">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Food_Nutrition"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Nutri1"></activity>
+        <activity android:name=".BillPay" />
+        <activity android:name=".NutritionCheck" />
+        <activity
+            android:name=".Order_Summary"
+            android:label="Order Summary" />
+        <activity android:name=".Nutritional_Activity2" />
+        <activity android:name=".Nutritional_activity1" />
+        <activity android:name=".Nutritional_Value" />
+        <activity
+            android:name=".Menu_Item"
+            android:label="Menu Items" />
+        <activity
+            android:name=".RestaurantPage"
+            android:label="@string/respage" />
+        <activity
+            android:name=".UserProfileActivity"
+            android:label="@string/userpage" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:label="@string/regpage" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/loginpage" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

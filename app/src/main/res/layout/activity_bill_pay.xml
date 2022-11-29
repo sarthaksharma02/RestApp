@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BillPay">
+
+    <TextView
+        android:id="@+id/paybill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kindly Pay Your Bill"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="330dp"
+        android:layout_height="53dp"
+        android:text="DEBIT CARD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/paybill"
+        app:layout_constraintVertical_bias="0.304" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="339dp"
+        android:layout_height="53dp"
+        android:text="CREDIT CARD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1"
+        app:layout_constraintVertical_bias="0.183" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="339dp"
+        android:layout_height="53dp"
+        android:text=" GOOGLE PAY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.219" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

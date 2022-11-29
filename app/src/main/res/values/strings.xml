@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Food_Nutrition</string>
+    <string name="name">NAME</string>
+    <string name="phone">PHONE</string>
+    <string name="reg_password">PASSWORD</string>
+    <string name="confirm_password">CONFIRM PASSWORD</string>
+    <string name="register">REGISTER</string>
+    <string name="login">LOGIN</string>
+    <string name="email">EMAIL</string>
+    <string name="password">PASSWORD</string>
+    <string name="logintxt">Not Registered..Press here!!</string>
+    <string name="reg_email">EMAIL</string>
+    <string name="regtxt">Already Registered....Please Login!!</string>
+    <string name="log_out_btn">LOG OUT</string>
+    <string name="usertxt">USER PROFILE</string>
+    <string name="locationtab">Find location here</string>
+    <string name="searchbtn">SEARCH</string>
+    <string name="img">TODO</string>
+    <string name="splashtext">FOOD_NUTRITION</string>
+    <string name="res1">Location : JABALPUR</string>
+    <string name="indian_coffee_house">INDIAN COFFEE HOUSE</string>
+    <string name="arihant_restaurant">ARIHANT RESTAURANT</string>
+    <string name="green_chilly_restaurant">GREEN CHILLY RESTAURANT</string>
+    <string name="vijan_mahal">ViJAN MAHAL</string>
+    <string name="loginpage">LOGIN PAGE</string>
+    <string name="regpage">REGISTRATION PAGE</string>
+    <string name="userpage">USER PAGE</string>
+    <string name="respage">Restaurants List</string>
+    <string name="nutrition">Nutrition Check</string>
+</resources>
