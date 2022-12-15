@@ -79,7 +79,7 @@ public class Menu_Item extends AppCompatActivity {
 
         OkHttpClient client = new OkHttpClient();
 
-        Request request = new Request.Builder().url("http://192.168.43.19:5000/menu").build();
+        Request request = new Request.Builder().url("ec2-13-234-239-93.ap-south-1.compute.amazonaws.com/menu").build();
 
         client.newCall(request).enqueue(new Callback() {
                                             @Override

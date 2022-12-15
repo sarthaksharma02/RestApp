@@ -78,7 +78,7 @@ public class RestaurantPage extends AppCompatActivity {
             System.out.println(a);
         }
 
-        Request request = new Request.Builder().url("http://192.168.43.19:5000/list/"+a).build();
+        Request request = new Request.Builder().url("ec2-13-234-239-93.ap-south-1.compute.amazonaws.com/list/"+a).build();
 
         client.newCall(request).enqueue(new Callback() {
             @Override
